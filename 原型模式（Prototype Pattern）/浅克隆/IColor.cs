@@ -12,7 +12,7 @@ namespace 原型模式_Prototype_Pattern_.浅克隆
         int Red { get; set; }
         int Green { get; set; }
         int Blue { get; set; }
-        string Name { get; set; }
+        List<Object> list { get; set; }
 
         IColor Clone();
     }
